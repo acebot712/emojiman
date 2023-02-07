@@ -14,6 +14,6 @@ This is a generic template and can be expanded and used to create Fullstack AI w
     2. Use the following line in a python console to determine how to make URL safe string for the `movie` string value 
     
     ```
-    import urllib;
-    parse.quote("mission impossible")
+    import urllib.parse;
+    urllib.parse.quote("mission impossible")
     ```
